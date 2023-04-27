@@ -1,0 +1,30 @@
+.container {
+  width: 100vw;
+
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 1rem;
+  justify-content: flex-start;
+  align-items: center;
+
+  &__title {
+    color: white;
+    font-size: 1rem;
+  }
+
+  &__title_h1 {
+    margin: 1rem 0;
+
+    font-size: 3rem;
+  }
+
+  &__title_h2 {
+    font-size: 2rem;
+  }
+
+  &__title_h3 {
+    font-size: 1.5rem;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+}

@@ -1,0 +1,53 @@
+.container {
+  width: 100vw;
+  min-height: 100vh;
+  padding: 2rem 0;
+
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 1rem;
+  justify-content: flex-start;
+  align-items: center;
+
+  &__title {
+    font-size: 1rem;
+    text-align: center;
+    color: white;
+  }
+
+  &__title_h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+
+  &__title_h2 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  &__pre {
+    padding: 1rem 2rem;
+
+    font-size: 1.2rem;
+    color: white;
+
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: rgb(56, 56, 56);
+    box-shadow: 2px 2px 2px 2px white;
+  }
+
+  &__buttons_wrapper {
+    width: 70%;
+    margin: 2rem 0;
+    padding: 2rem;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+    border: 2px solid white;
+    border-radius: 5px;
+  }
+}

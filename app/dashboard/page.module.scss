@@ -1,0 +1,53 @@
+.loading_wrapper {
+  width: 100vw;
+  margin: 2rem 0;
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+
+  transition: all 0.5s ease-in-out;
+
+  &__span {
+    width: 70%;
+    padding: 0.5rem 1rem;
+
+    text-align: center;
+    color: white;
+
+    border: 1px solid white;
+    border-radius: 5px;
+  }
+}
+
+.container {
+  width: 100vw;
+
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 1rem;
+  justify-content: flex-start;
+  align-items: center;
+
+  &__title {
+    color: white;
+    font-size: 1rem;
+  }
+
+  &__title_h1 {
+    margin: 1rem 0;
+
+    font-size: 3rem;
+  }
+
+  &__title_h2 {
+    font-size: 2rem;
+  }
+
+  &__title_h3 {
+    font-size: 1.5rem;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+}
