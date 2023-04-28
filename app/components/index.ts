@@ -1,3 +1,5 @@
 export { SignInButton } from './SignInButton/SignInButton'
 export { SignOutButton } from './SignOutButton/SignOutButton'
 export { User } from './User/User'
+export { RegisterForm } from './RegisterForm/RegisterForm'
+export { Message } from './Message/Message'
