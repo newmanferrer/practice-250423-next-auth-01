@@ -1,0 +1,21 @@
+.container {
+  width: 100vw;
+  padding: 2rem 0;
+
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 1rem;
+  justify-content: flex-start;
+  align-items: center;
+
+  &__title {
+    // font-size: 1rem;
+    text-align: center;
+    color: white;
+  }
+
+  &__title_h1 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+}
