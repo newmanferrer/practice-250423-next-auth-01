@@ -1,4 +1,4 @@
-import { SignInForm } from '../components/SignInForm/SignInForm'
+import { SignInForm } from '../components'
 import styles from './page.module.scss'
 
 export default function SignInPage() {
