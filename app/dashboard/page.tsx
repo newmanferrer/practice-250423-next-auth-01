@@ -1,6 +1,7 @@
 'use client'
 
 import { useSession } from 'next-auth/react'
+import { SignInButton, SignOutButton } from '../components'
 import styles from './page.module.scss'
 
 export default function DashboardPage() {
@@ -29,6 +30,11 @@ export default function DashboardPage() {
       <h3 className={`${styles.container__title} ${styles.container__title_h3}`}>
         this is a client component
       </h3>
+
+      <div className={styles.container__buttons_wrapper}>
+        <SignInButton />
+        <SignOutButton />
+      </div>
     </div>
   )
 }

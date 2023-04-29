@@ -50,4 +50,18 @@
     text-decoration: underline;
     text-underline-offset: 3px;
   }
+
+  &__buttons_wrapper {
+    width: 70%;
+    margin: 2rem 0;
+    padding: 2rem;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+    border: 2px solid white;
+    border-radius: 5px;
+  }
 }

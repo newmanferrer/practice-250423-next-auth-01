@@ -1,3 +1,4 @@
+import { SignInButton, SignOutButton } from '../components'
 import styles from './page.module.scss'
 
 export default function DashboardPage3() {
@@ -12,6 +13,11 @@ export default function DashboardPage3() {
       <h3 className={`${styles.container__title} ${styles.container__title_h3}`}>
         this is a server component
       </h3>
+
+      <div className={styles.container__buttons_wrapper}>
+        <SignInButton />
+        <SignOutButton />
+      </div>
     </div>
   )
 }
